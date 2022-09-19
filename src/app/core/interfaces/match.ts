@@ -1,17 +1,17 @@
 export interface Match {
-    title?: string,
+    title: string,
 
-    competition?: string,
+    competition: string,
 
-    matchviewUrl?: string,
+    matchviewUrl: string,
 
-    competitionUrl?: string,
+    competitionUrl: string,
 
-    thumbnail?: string,
+    thumbnail: string,
 
-    date?: Date,
+    date: Date,
 
-    videos?: [
+    videos: [
         {
             title: string,
             embed: string

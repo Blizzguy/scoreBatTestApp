@@ -4,12 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainPageComponent } from './components/main-page/main-page.component';
+import { MatchListComponent } from './components/match-list/match-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainPageComponent
+    MatchListComponent
   ],
   imports: [
     BrowserModule,

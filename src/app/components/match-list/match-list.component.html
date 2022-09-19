@@ -1,0 +1,12 @@
+
+<div >
+    <iframe *ngFor="let match of groupMatches" 
+        [src]="sanitizer.bypassSecurityTrustResourceUrl(match.matchviewUrl)"
+        frameborder="0" 
+        width="400" 
+        height="500"
+        allowfullscreen 
+        allow='autoplay; fullscreen'
+        class="_scorebatEmbeddedPlayer_ containerMatches">
+    </iframe>
+</div>
